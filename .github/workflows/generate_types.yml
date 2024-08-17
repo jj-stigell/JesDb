@@ -1,0 +1,54 @@
+---
+
+name: 'Generate TS types workflow'
+
+run-name: ${{ github.actor }} - auto-generate TS types from DB schema
+"on":
+  push:
+    paths:
+      - 'server/schema.sql'
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - name: Set up supabase cli
+        uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - name: "Generate database typescript types"
+        shell: bash
+        env:
+          SUPABASE_REF_ID: ${{ secrets.SUPABASE_REF_ID }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: |
+          if [ ! -f supabase/config.toml ]; then
+            supabase init && supabase start
+          fi
+          supabase link --project-ref ${SUPABASE_REF_ID} --password ${DB_PASSWORD}
+          supabase gen types typescript --db-url ${SUPABASE_DB_URL} > client/src/types/database.types.ts
+      - name: Check for file changes & commit files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: client/src/types/database.types.ts
+          commit_message: Automatic update of database types
+          branch: database/update-database-types
+          create_branch: true
+      - name: Create Pull Request
+        uses: repo-sync/pull-request@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          source_branch: database/update-database-types
+          destination_branch: "main"
+          pr_allow_empty: false
+          pr_title: 'Update database TS type definitions'
+          pr_body: |
+            - Changes to DB SQL file made by ${{ github.actor }}.

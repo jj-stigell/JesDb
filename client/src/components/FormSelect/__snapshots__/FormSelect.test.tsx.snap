@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormSelect Component should disable the select element when disabled prop is true 1`] = `
+<DocumentFragment>
+  <div>
+    <label
+      class="block mb-2 text-sm text-gray-900 dark:text-white"
+      for="test-select"
+    >
+      Select an option
+    </label>
+    <div
+      class="flex"
+    >
+      <div
+        class="relative w-full"
+      >
+        <select
+          aria-describedby="helper-text-test-select"
+          class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+          disabled=""
+          id="test-select"
+        >
+          <option
+            disabled=""
+            value=""
+          >
+            Select an option
+          </option>
+          <option
+            value="Option 1"
+          >
+            Option 1
+          </option>
+          <option
+            value="Option 2"
+          >
+            Option 2
+          </option>
+          <option
+            value="Option 3"
+          >
+            Option 3
+          </option>
+        </select>
+      </div>
+    </div>
+    <p
+      class="mt-2 text-sm text-gray-500 dark:text-gray-200"
+      id="helper-text-test-select"
+    >
+      Helper text
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`FormSelect Component should render the component with all props 1`] = `
+<DocumentFragment>
+  <div>
+    <label
+      class="block mb-2 text-sm text-gray-900 dark:text-white"
+      for="test-select"
+    >
+      Select an option
+    </label>
+    <div
+      class="flex"
+    >
+      <div
+        class="relative w-full"
+      >
+        <select
+          aria-describedby="helper-text-test-select"
+          class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 bg-gray-50 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+          id="test-select"
+        >
+          <option
+            disabled=""
+            value=""
+          >
+            Select an option
+          </option>
+          <option
+            value="Option 1"
+          >
+            Option 1
+          </option>
+          <option
+            value="Option 2"
+          >
+            Option 2
+          </option>
+          <option
+            value="Option 3"
+          >
+            Option 3
+          </option>
+        </select>
+      </div>
+    </div>
+    <p
+      class="mt-2 text-sm text-gray-500 dark:text-gray-200"
+      id="helper-text-test-select"
+    >
+      Helper text
+    </p>
+  </div>
+</DocumentFragment>
+`;

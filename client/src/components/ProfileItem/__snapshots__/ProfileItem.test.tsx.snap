@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileItem Component renders "Update latest note" when actionType is updateNote 1`] = `
+<DocumentFragment>
+  <li
+    class="
+        flex justify-between items-center bg-gray-100
+        dark:bg-jesdark-600 dark:border-jesdark-700 p-2 rounded-lg my-2
+      "
+    role="listitem"
+  >
+    <div>
+      <p
+        aria-level="3"
+        class="text-lg dark:text-white"
+        id="profile-name-Test Profile"
+        role="heading"
+      >
+        Test Profile
+      </p>
+      <p
+        class="text-sm dark:text-gray-200"
+      >
+        Target deck: Test Deck
+      </p>
+      <p
+        class="text-sm dark:text-gray-200"
+      >
+        Note type: Basic
+      </p>
+      <p
+        class="text-sm dark:text-gray-200"
+      >
+        Action type: Update latest note
+      </p>
+    </div>
+    <div>
+      <button
+        aria-label="Delete profile: Test Profile"
+        class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none border border-transparent bg-red-700 text-white focus:ring-4 focus:ring-red-300 enabled:hover:bg-red-800 dark:bg-red-600 dark:focus:ring-red-900 dark:enabled:hover:bg-red-700 rounded-lg"
+        type="button"
+      >
+        <span
+          class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+        >
+          Delete
+        </span>
+      </button>
+    </div>
+  </li>
+</DocumentFragment>
+`;
+
+exports[`ProfileItem Component renders profile information correctly 1`] = `
+<DocumentFragment>
+  <li
+    class="
+        flex justify-between items-center bg-gray-100
+        dark:bg-jesdark-600 dark:border-jesdark-700 p-2 rounded-lg my-2
+      "
+    role="listitem"
+  >
+    <div>
+      <p
+        aria-level="3"
+        class="text-lg dark:text-white"
+        id="profile-name-Test Profile"
+        role="heading"
+      >
+        Test Profile
+      </p>
+      <p
+        class="text-sm dark:text-gray-200"
+      >
+        Target deck: Test Deck
+      </p>
+      <p
+        class="text-sm dark:text-gray-200"
+      >
+        Note type: Basic
+      </p>
+      <p
+        class="text-sm dark:text-gray-200"
+      >
+        Action type: Add new note
+      </p>
+    </div>
+    <div>
+      <button
+        aria-label="Delete profile: Test Profile"
+        class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none border border-transparent bg-red-700 text-white focus:ring-4 focus:ring-red-300 enabled:hover:bg-red-800 dark:bg-red-600 dark:focus:ring-red-900 dark:enabled:hover:bg-red-700 rounded-lg"
+        type="button"
+      >
+        <span
+          class="flex items-stretch transition-all duration-200 rounded-md px-4 py-2 text-sm"
+        >
+          Delete
+        </span>
+      </button>
+    </div>
+  </li>
+</DocumentFragment>
+`;

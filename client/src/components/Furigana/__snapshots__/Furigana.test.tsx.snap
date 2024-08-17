@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Furigana Component does not render highlighted text with furigana even if showFurigana true 1`] = `
+<DocumentFragment>
+  <div
+    aria-live="polite"
+    class="text-lg dark:text-white"
+    data-testid="furigana-component"
+    lang="ja"
+  >
+    <ruby>
+      昔
+      <rt>
+        むかし
+      </rt>
+    </ruby>
+    から
+    <ruby>
+      自動車
+      <rt>
+        じどうしゃ
+      </rt>
+    </ruby>
+    の
+    <ruby>
+      会社
+      <rt>
+        かいしゃ
+      </rt>
+    </ruby>
+    をやっていて
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Furigana Component renders highlighted text without furigana 1`] = `
+<DocumentFragment>
+  <div
+    aria-live="polite"
+    class="text-lg dark:text-white"
+    data-testid="furigana-component"
+    lang="ja"
+  >
+    昔から 
+    <span
+      class="keyword"
+    >
+      自動車
+    </span>
+    の会社をやっていて
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Furigana Component renders non-highlighted text with furigana 1`] = `
+<DocumentFragment>
+  <div
+    aria-live="polite"
+    class="text-lg dark:text-white"
+    data-testid="furigana-component"
+    lang="ja"
+  >
+    <ruby>
+      昔
+      <rt>
+        むかし
+      </rt>
+    </ruby>
+    から
+    <ruby>
+      自動車
+      <rt>
+        じどうしゃ
+      </rt>
+    </ruby>
+    の
+    <ruby>
+      会社
+      <rt>
+        かいしゃ
+      </rt>
+    </ruby>
+    をやっていて
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Furigana Component renders non-highlighted text without furigana 1`] = `
+<DocumentFragment>
+  <div
+    aria-live="polite"
+    class="text-lg dark:text-white"
+    data-testid="furigana-component"
+  >
+    昔から 自動車の会社をやっていて
+  </div>
+</DocumentFragment>
+`;

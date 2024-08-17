@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Example Component renders component properly, compact view 1`] = `
+<DocumentFragment>
+  <div
+    class="
+        relative flex flex-col md:flex-row md:space-x-1 space-y-1 md:space-y-0
+        rounded-xl shadow-lg p-1 mx-auto border-blue-300 border bg-blue-100
+        my-3 dark:bg-jesdark-600 dark:border-jesdark-700
+      "
+  >
+    <div
+      class="w-full bg-inherit flex flex-col pl-2"
+    >
+      <div>
+        <div
+          aria-live="polite"
+          class="text-lg dark:text-white"
+          data-testid="furigana-component"
+          lang="ja"
+        >
+          昔から 
+          <span
+            class="keyword"
+          >
+            自動車
+          </span>
+          の会社をやっていて
+        </div>
+      </div>
+      <div
+        class="text-xs dark:text-white"
+      >
+        long time a go I had a car company
+      </div>
+    </div>
+    <div
+      class="flex flex-row gap-3"
+    >
+      <div>
+        <button
+          aria-label="Play audio"
+          class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none border border-transparent bg-blue-700 text-white focus:ring-4 focus:ring-blue-300 enabled:hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 rounded-lg"
+          type="button"
+        >
+          <span
+            class="flex items-stretch transition-all duration-200 rounded-md px-2 py-1 text-xs"
+          >
+            <svg
+              class="my-0.5"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 384 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        class="w-fit"
+        data-testid="flowbite-tooltip-target"
+      >
+        <button
+          class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none border border-transparent bg-blue-700 text-white focus:ring-4 focus:ring-blue-300 enabled:hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 rounded-lg"
+          data-testid="source-button"
+          type="button"
+        >
+          <span
+            class="flex items-stretch transition-all duration-200 rounded-md px-2 py-1 text-xs"
+          >
+            <svg
+              aria-hidden="true"
+              class="my-0.5"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 20 20"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm3 2h6v4H7V5zm8 8v2h1v-2h-1zm-2-2H7v4h6v-4zm2 0h1V9h-1v2zm1-4V5h-1v2h1zM5 5v2H4V5h1zm0 4H4v2h1V9zm-1 4h1v2H4v-2z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        class="absolute z-10 inline-block rounded-lg px-3 py-2 text-sm font-medium shadow-sm transition-opacity duration-300 invisible opacity-0 bg-gray-900 text-white dark:bg-gray-700"
+        data-testid="flowbite-tooltip"
+        id=":r2:"
+        role="tooltip"
+        style="position: absolute; top: 0px; left: 0px;"
+        tabindex="-1"
+      >
+        <div
+          class="relative z-20"
+        >
+          Open source video in new tab
+        </div>
+        <div
+          class="absolute z-10 h-2 w-2 rotate-45 bg-gray-900 dark:bg-gray-700"
+          data-testid="flowbite-tooltip-arrow"
+          style="bottom: -4px;"
+        >
+           
+        </div>
+      </div>
+      <div
+        class="hidden sm:block"
+      >
+        <button
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-label="Export to Anki dropdown"
+          class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none border border-transparent bg-blue-700 text-white focus:ring-4 focus:ring-blue-300 enabled:hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 rounded-lg w-fit"
+          data-testid="flowbite-dropdown-target"
+          id=":r5:"
+          type="button"
+        >
+          <span
+            class="flex items-stretch transition-all duration-200 rounded-md px-2 py-1 text-xs"
+          >
+            <svg
+              baseProfile="tiny"
+              class="h-4 w-4"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              version="1.2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 16.5v.5c1.691-2.578 3.6-3.953 6-4v3c0 .551.511 1 1.143 1 .364 0 .675-.158.883-.391 1.933-2.029 5.974-6.109 5.974-6.109s-4.041-4.082-5.975-6.137c-.208-.205-.518-.363-.882-.363-.632 0-1.143.447-1.143 1v3c-4.66 0-6 4.871-6 8.5zM5 21h14c.553 0 1-.448 1-1v-6.046c-.664.676-1.364 1.393-2 2.047v2.999h-12v-12h7v-2h-8c-.553 0-1 .448-1 1v14c0 .552.447 1 1 1z"
+              />
+            </svg>
+            <svg
+              aria-hidden="true"
+              class="ml-2 h-4 w-4"
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 9l-7 7-7-7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Example Component renders component properly, full view 1`] = `
+<DocumentFragment>
+  <div
+    class="
+        relative flex flex-col md:flex-row md:space-x-1 space-y-1 md:space-y-0
+        rounded-xl shadow-lg p-1 mx-auto border-blue-300 border bg-blue-100
+        my-3 dark:bg-jesdark-600 dark:border-jesdark-700
+      "
+  >
+    <div
+      class="w-full md:w-1/2 bg-inherit grid place-items-center"
+    >
+      <div
+        class="
+        flex items-center justify-center w-full h-44
+        bg-gray-300 dark:bg-gray-700 animate-pulse rounded-xl"
+      >
+        <svg
+          aria-hidden="true"
+          class="w-10 h-10 text-gray-200 dark:text-gray-600"
+          fill="currentColor"
+          viewBox="0 0 20 18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="
+              M18 0H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-5.5
+              4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm4.376 10.481A1 1 0 0 1 16 15H4a1 1 0 0
+              1-.895-1.447l3.5-7A1 1 0 0 1 7.468 6a.965.965 0 0 1 .9.5l2.775 4.757 1.546-1.887a1
+              1 0 0 1 1.618.1l2.541 4a1 1 0 0 1 .028 1.011Z"
+          />
+        </svg>
+      </div>
+      <img
+        alt="image for example id 1863"
+        class="rounded-xl"
+        src="https://jynhfjtxpodsmjlnexrx.supabase.co/storage/v1/
+  object/public/jesdb-media/gBumdOWWMhY/gBumdOWWMhY_s102_e104.jpg"
+      />
+    </div>
+    <div
+      class="w-full md:w-2/3 bg-inherit flex flex-col space-y-2 p-2"
+    >
+      <div
+        class="flex justify-between item-center"
+      >
+        <p
+          class="text-xs dark:text-white"
+        >
+          Source:
+          <a
+            class="
+                text-blue-600 hover:text-blue-900 underline ml-1
+                dark:text-blue-300 dark:hover:text-blue-400
+              "
+            data-testid="source-link"
+            href="https://youtube.com/watch?v=gBumdOWWMhY&t=102s"
+            rel="noreferrer"
+            target="_blank"
+          >
+            gBumdOWWMhY
+          </a>
+        </p>
+        <div
+          class="hidden sm:block"
+        >
+          <button
+            aria-expanded="false"
+            aria-haspopup="menu"
+            aria-label="Export to Anki dropdown"
+            class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none border border-transparent bg-blue-700 text-white focus:ring-4 focus:ring-blue-300 enabled:hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 rounded-lg w-fit"
+            data-testid="flowbite-dropdown-target"
+            id=":r1:"
+            type="button"
+          >
+            <span
+              class="flex items-stretch transition-all duration-200 rounded-md px-2 py-1 text-xs"
+            >
+              Export to Anki
+              <svg
+                aria-hidden="true"
+                class="ml-2 h-4 w-4"
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 9l-7 7-7-7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+        <button
+          aria-label="Play audio"
+          class="group relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none border border-transparent bg-blue-700 text-white focus:ring-4 focus:ring-blue-300 enabled:hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 rounded-lg"
+          type="button"
+        >
+          <span
+            class="flex items-stretch transition-all duration-200 rounded-md px-2 py-1 text-xs"
+          >
+            <svg
+              class="my-0.5"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 384 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+              />
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        class="flex justify-between item-center mt-2"
+      >
+        <div
+          aria-live="polite"
+          class="text-lg dark:text-white"
+          data-testid="furigana-component"
+          lang="ja"
+        >
+          昔から 
+          <span
+            class="keyword"
+          >
+            自動車
+          </span>
+          の会社をやっていて
+        </div>
+      </div>
+      <div
+        class="text-xs dark:text-white"
+      >
+        long time a go I had a car company
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

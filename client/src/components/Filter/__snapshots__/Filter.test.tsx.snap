@@ -1,0 +1,457 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter Component disables all filter options when disable prop is true 1`] = `
+<DocumentFragment>
+  <div
+    class="
+        mb-2 border-x-2 border-b-2 rounded-lg border-blue-100
+        p-2 mt-1 dark:border-jesdark-800 dark:bg-jesdark-600
+      "
+  >
+    <div
+      class="flex justify-end"
+    >
+      <button
+        aria-label="Reset filters"
+        class="underline text-red-400 hover:text-red-500"
+        disabled=""
+      >
+        Reset filters
+      </button>
+    </div>
+    <div
+      class="flex items-center space-x-2"
+    >
+      <div
+        class="w-3/6"
+      >
+        <fieldset
+          aria-labelledby="sort-by-legend"
+          class="flex max-w-md flex-rows flex-wrap gap-4"
+        >
+          <legend
+            class="mb-2 dark:text-white"
+            id="sort-by-legend"
+          >
+            Sort by
+          </legend>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              checked=""
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              disabled=""
+              id="relevance"
+              name="sort"
+              type="radio"
+              value="relevance"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="relevance"
+            >
+              Relevance
+            </label>
+          </div>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              disabled=""
+              id="shortness"
+              name="sort"
+              type="radio"
+              value="shortness"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="shortness"
+            >
+              Shortness
+            </label>
+          </div>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              disabled=""
+              id="longness"
+              name="sort"
+              type="radio"
+              value="longness"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="longness"
+            >
+              Longness
+            </label>
+          </div>
+        </fieldset>
+      </div>
+      <div
+        class="w-3/6"
+      >
+        <fieldset
+          aria-labelledby="translation-legend"
+          class="flex max-w-md flex-rows flex-wrap gap-4"
+        >
+          <legend
+            class="mb-2 dark:text-white"
+            id="translation-legend"
+          >
+            Only examples with translation
+          </legend>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              aria-checked="false"
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              disabled=""
+              id="translation-required"
+              name="translation"
+              type="radio"
+              value="translation-required"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="translation-required"
+            >
+              Yes
+            </label>
+          </div>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              aria-checked="true"
+              checked=""
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              disabled=""
+              id="translation-optional"
+              name="translation"
+              type="radio"
+              value="translation-optional"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="translation-optional"
+            >
+              No
+            </label>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filter Component matches snapshot when filters are changed 1`] = `
+<DocumentFragment>
+  <div
+    class="
+        mb-2 border-x-2 border-b-2 rounded-lg border-blue-100
+        p-2 mt-1 dark:border-jesdark-800 dark:bg-jesdark-600
+      "
+  >
+    <div
+      class="flex justify-end"
+    >
+      <button
+        aria-label="Reset filters"
+        class="underline text-red-400 hover:text-red-500"
+      >
+        Reset filters
+      </button>
+    </div>
+    <div
+      class="flex items-center space-x-2"
+    >
+      <div
+        class="w-3/6"
+      >
+        <fieldset
+          aria-labelledby="sort-by-legend"
+          class="flex max-w-md flex-rows flex-wrap gap-4"
+        >
+          <legend
+            class="mb-2 dark:text-white"
+            id="sort-by-legend"
+          >
+            Sort by
+          </legend>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              id="relevance"
+              name="sort"
+              type="radio"
+              value="relevance"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="relevance"
+            >
+              Relevance
+            </label>
+          </div>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              id="shortness"
+              name="sort"
+              type="radio"
+              value="shortness"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="shortness"
+            >
+              Shortness
+            </label>
+          </div>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              checked=""
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              id="longness"
+              name="sort"
+              type="radio"
+              value="longness"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="longness"
+            >
+              Longness
+            </label>
+          </div>
+        </fieldset>
+      </div>
+      <div
+        class="w-3/6"
+      >
+        <fieldset
+          aria-labelledby="translation-legend"
+          class="flex max-w-md flex-rows flex-wrap gap-4"
+        >
+          <legend
+            class="mb-2 dark:text-white"
+            id="translation-legend"
+          >
+            Only examples with translation
+          </legend>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              aria-checked="true"
+              checked=""
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              id="translation-required"
+              name="translation"
+              type="radio"
+              value="translation-required"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="translation-required"
+            >
+              Yes
+            </label>
+          </div>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              aria-checked="false"
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              id="translation-optional"
+              name="translation"
+              type="radio"
+              value="translation-optional"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="translation-optional"
+            >
+              No
+            </label>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Filter Component renders without crashing and displays all filter options 1`] = `
+<DocumentFragment>
+  <div
+    class="
+        mb-2 border-x-2 border-b-2 rounded-lg border-blue-100
+        p-2 mt-1 dark:border-jesdark-800 dark:bg-jesdark-600
+      "
+  >
+    <div
+      class="flex justify-end"
+    >
+      <button
+        aria-label="Reset filters"
+        class="underline text-red-400 hover:text-red-500"
+      >
+        Reset filters
+      </button>
+    </div>
+    <div
+      class="flex items-center space-x-2"
+    >
+      <div
+        class="w-3/6"
+      >
+        <fieldset
+          aria-labelledby="sort-by-legend"
+          class="flex max-w-md flex-rows flex-wrap gap-4"
+        >
+          <legend
+            class="mb-2 dark:text-white"
+            id="sort-by-legend"
+          >
+            Sort by
+          </legend>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              checked=""
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              id="relevance"
+              name="sort"
+              type="radio"
+              value="relevance"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="relevance"
+            >
+              Relevance
+            </label>
+          </div>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              id="shortness"
+              name="sort"
+              type="radio"
+              value="shortness"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="shortness"
+            >
+              Shortness
+            </label>
+          </div>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              id="longness"
+              name="sort"
+              type="radio"
+              value="longness"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="longness"
+            >
+              Longness
+            </label>
+          </div>
+        </fieldset>
+      </div>
+      <div
+        class="w-3/6"
+      >
+        <fieldset
+          aria-labelledby="translation-legend"
+          class="flex max-w-md flex-rows flex-wrap gap-4"
+        >
+          <legend
+            class="mb-2 dark:text-white"
+            id="translation-legend"
+          >
+            Only examples with translation
+          </legend>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              aria-checked="false"
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              id="translation-required"
+              name="translation"
+              type="radio"
+              value="translation-required"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="translation-required"
+            >
+              Yes
+            </label>
+          </div>
+          <div
+            class="flex items-center gap-1"
+          >
+            <input
+              aria-checked="true"
+              checked=""
+              class="h-4 w-4 border border-gray-300 text-cyan-600 focus:ring-2 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:focus:bg-cyan-600 dark:focus:ring-cyan-600"
+              id="translation-optional"
+              name="translation"
+              type="radio"
+              value="translation-optional"
+            />
+            <label
+              class="text-sm font-medium text-gray-900 dark:text-white"
+              data-testid="flowbite-label"
+              for="translation-optional"
+            >
+              No
+            </label>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

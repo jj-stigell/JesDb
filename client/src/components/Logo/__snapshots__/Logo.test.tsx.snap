@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo Component should render the component with all props 1`] = `
+<DocumentFragment>
+  <h1
+    aria-label="JesDb logo"
+    class="
+        text-4xl text-center font-extrabold bg-gradient-to-r
+        from-orange-500 to-yellow-300 text-transparent bg-clip-text"
+    role="img"
+  >
+    JesDb
+  </h1>
+</DocumentFragment>
+`;

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CloseButton Component does not call onClick when the button is disabled 1`] = `
+<DocumentFragment>
+  <button
+    aria-label="Close"
+    class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900
+        rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center
+        dark:hover:bg-gray-600 dark:hover:text-white"
+    data-modal-hide="popup-modal"
+    disabled=""
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="w-3 h-3"
+      fill="none"
+      viewBox="0 0 14 14"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`CloseButton Component renders correctly 1`] = `
+<DocumentFragment>
+  <button
+    aria-label="Close"
+    class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900
+        rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center
+        dark:hover:bg-gray-600 dark:hover:text-white"
+    data-modal-hide="popup-modal"
+    type="button"
+  >
+    <svg
+      aria-hidden="true"
+      class="w-3 h-3"
+      fill="none"
+      viewBox="0 0 14 14"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+      />
+    </svg>
+  </button>
+</DocumentFragment>
+`;

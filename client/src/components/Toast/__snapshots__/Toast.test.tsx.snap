@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toast Component matches snapshot for large screen 1`] = `
+<DocumentFragment>
+  <div
+    class="Toastify"
+  />
+</DocumentFragment>
+`;
+
+exports[`Toast Component matches snapshot for small screen 1`] = `
+<DocumentFragment>
+  <div
+    class="Toastify"
+  />
+</DocumentFragment>
+`;
